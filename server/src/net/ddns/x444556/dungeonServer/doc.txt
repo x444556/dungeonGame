@@ -1,0 +1,14 @@
+
+Commands (Client -> Server):
+	- JOIN <Name>
+	- MOV <X> <Y> <Z>
+	- ROT <X> <Y> <Z>
+	- SNEAK <true/false>
+	- WALK <true/false>
+
+Commands (Server -> Client):
+	- JOIN <Name>
+	- MOV <Name> <X> <Y> <Z>
+	- ROT <Name> <X> <Y> <Z>
+	- SNEAK <Name> <true/false>
+	- WALK <Name> <true/false>
